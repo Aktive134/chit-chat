@@ -6,7 +6,7 @@ import '../styles/Auth.css'
 
 const cookies = new Cookies()
 
-function Auth( { setIsAuth }) {
+const Auth = ({ setIsAuth }) => {
   const GoogleSignInHandler = async () => {
     try {
       const data = await signInWithPopup(auth, provider)
