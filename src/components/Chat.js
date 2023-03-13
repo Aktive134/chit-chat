@@ -10,7 +10,7 @@ import {
   orderBy,
 } from 'firebase/firestore'
 import { db, auth } from '../firebase-config.js'
-import '../styles/chat.css'
+import '../styles/Chat.css'
 import { Context } from '../Context'
 
 const Chat = () => {
