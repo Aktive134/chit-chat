@@ -49,9 +49,9 @@ const Chat = () => {
   }
 
   return (
-    <div className="chat-app">
+    <div className="chat-container">
       <div className="header">
-        <h1> Welcome to: {room.toUpperCase}</h1>
+        <h1> Welcome to: {room.toUpperCase()}</h1>
       </div>
       <div className="messages">
         {messages.map((message) => (
@@ -61,6 +61,7 @@ const Chat = () => {
           </div>
         ))}
       </div>
+      <div className='form-container'>
       <form onSubmit={submitHandler} className="new-message-form">
         <input
           className="new-message-input"
@@ -72,6 +73,7 @@ const Chat = () => {
           Send
         </button>
       </form>
+      </div>
     </div>
   )
 }

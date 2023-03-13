@@ -1,85 +1,65 @@
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
-.App {
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  flex-direction: column;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.app-header {
-  text-align: center;
-  background-color: #1c5013;
-  color: white;
-  width: 100%;
-}
-
-.app-container {
-  margin-top: 50px;
+body {
+  background: rgb(15, 147, 88);
+  background: radial-gradient(
+    circle,
+    rgba(15, 147, 88, 0.742734593837535) 59%,
+    rgba(83, 160, 176, 0.8463760504201681) 100%
+  );
 }
 
 .room {
+  width: 50%;
+  height: 20rem;
   display: flex;
   flex-direction: column;
-  width: 25rem;
-  border: 2px solid #1c5013;
-  
+  justify-content: center;
+  align-items: center;
+  margin: 5em auto;
+  background-color: #aed5a8;
 }
-
-.room label {
+.room h4 {
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 20px;
+  color: rgb(219, 231, 231);
 }
-
+.room label {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(11, 29, 11);
+  padding: .5em 0 0 0;
+  margin: .5em;
+}
 .room input {
-  width: 200px;
-  height: 30px;
-  border: 2px solid #1c5013;
-  border-radius: 6px;
-  padding-left: 5px;
+  height: 15%;
+  width: 55%;
+  margin: 0.5em;
+  border: none;
   font-size: 20px;
   text-align: center;
-  margin: 5px;
 }
 .room button {
-  width: 210px;
-  height: 40px;
+  margin: 0.5em;
   border: none;
-  border-radius: 6px;
-  padding-left: 5px;
+  padding: 0.7em;
   font-size: 20px;
   text-align: center;
-  margin: 5px;
   background-color: #1c5013;
-  color: white;
+  color: rgb(237, 230, 230);
   cursor: pointer;
 }
 
 .sign-out button {
-  margin-top: 50px;
-  width: 100px;
-  height: 30px;
-  background-color:#1c5013;
-  color: white;
-  border-radius: 6px;
-  padding-left: 5px;
+  margin-left: 2.5em;
+  margin-top: 2.5em;
+  border: none;
+  padding: 0.7em;
   font-size: 20px;
   text-align: center;
-  margin: 5px;
-}
-
-.navbar {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   background-color: #1c5013;
-  color: white;
+  color: rgb(237, 230, 230);
+  cursor: pointer;
 }

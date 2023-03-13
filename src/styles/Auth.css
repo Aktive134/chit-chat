@@ -1,14 +1,29 @@
 .auth {
-    text-align: center;
+  width: 25em;
+  height: 15em;
+  margin: 10em auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #21581b;
+}
+
+.auth p {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(249, 247, 247);
 }
 
 .auth button {
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: #3b5998;
-    color: white;
-    border-radius: 8px;
-    font-size: 18px;
-    cursor: pointer;
+  margin: 1.5em;
+  border: none;
+  padding: 0.8em;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #3e6a37;
+  color: rgb(237, 230, 230);
+  cursor: pointer;
 }

@@ -20,7 +20,7 @@ const Auth = ({ setIsAuth }) => {
   return (
     <div className="auth">
       <p> Sign In With Google To Continue </p>
-      <button onClick={GoogleSignInHandler}> Sign In With Google </button>
+      <button onClick={GoogleSignInHandler}> Google Sign </button>
     </div>
   )
 }
